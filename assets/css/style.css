@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300;500;900&display=swap');
+@import url('./header.css');
+@import url('./about.css');
+@import url('./banner.css');
+@import url('./services.css');
+@import url('./contact.css');
+@import url('./footer.css');
+@import url('./modal.css');
+@import url('./responsive.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif HK', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.containerEmpty {
+  height: 6.2rem;
+}
+
+.sectionContainer {
+  margin: 0 2rem;
+}
+
+.sectionContainer h2 {
+  display: block;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+  font-weight: 100;
+  position: relative;
+}
+
+.sectionContainer h2::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1rem);
+  height: 5px;
+  width: 4rem;
+  background: #F79489;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}

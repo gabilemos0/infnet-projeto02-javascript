@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a97a1bedf2.js" crossorigin="anonymous"></script>
+  <title>Jéssica Carvalho - Consultora de Imagem</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!--Logo-->
+    <div class="logo">
+      <a href="#home"><img src="./assets/img/logo.png" alt="logo"
+          class="heading animate__animated animate__fadeIn animate__slower" /></a>
+    </div>
+    <!--Itens de Navengação-->
+    <nav>
+      <ul class="heading animate__animated animate__fadeIn animate__slower">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="home" class="containerEmpty"></div>
+    <!--Seção de navegação "HOME" - (carousel bootstrap) -->
+    <div>
+      <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/banner-1.jpg" class="d-block w-100" alt="banner 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banner-2.jpg" class="d-block w-100" alt="banner 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banner-3.jpg" class="d-block w-100" alt="banner 3">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banner-4.jpg" class="d-block w-100" alt="banner 4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Seção de navegação "SOBRE"-->
+    <section id="about">
+      <div class="sectionContainer">
+        <h2>Sobre</h2>
+        <div class="container-fluid aboutDescription">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="aboutColumn">
+                <h3>Quem é?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perferendis nihil, enim in nulla natus, atque accusamus distinctio
+                  iste, quae tempore sed inventore. Atque sequi rem fugiat odit
+                  ipsum temporibus...
+                </p>
+                <button class="knowMore">Saiba mais</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="aboutColumn">
+                <h3>O que é?</h3>
+                <p>
+                  A Consultoria de Imagem e Estilo é o processo de análise e
+                  construção da nossa forma de vestir, tendo como principal objetivo
+                  harmonizar nossa identidade à nossa imagem. A identidade são
+                  nossos valores, quem somos e quem queremos nos tornar...
+                </p>
+                <button class="knowMore">Saiba mais</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="aboutColumn">
+                <h3>Para quem é?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis dolor sapiente
+                  inventore
+                  corporis nam recusandae, reiciendis cumque neque aperiam quibusdam voluptatum omnis, similique
+                  consectetur
+                  incidunt tempore repellat voluptatem natus...
+                </p>
+                <button class="knowMore">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--Seção de navegação "SERVIÇOS"-->
+    <section id="services">
+      <div class="sectionContainer">
+        <h2>Serviços</h2>
+        <!--Catálogo de Serviços - (carousel bootstrap)-->
+        <div id="pageServices" class="carousel slide carousel-dark" data-interval="false">
+          <div class="carousel-inner">
+            <!--Página 1-->
+            <div class="container-fluid">
+              <div class="carousel-item active">
+                <div class="columnOne">
+                  <div class="row">
+                    <!--Visagismo-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#visagismModal">
+                          <img src="./assets/img/visagism.jpg" alt="visagismo" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Visagismo</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Estilo-->
+                    <div class="col-md-4 d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#styleModal">
+                          <img src="./assets/img/style.jpg" alt="Estilo" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Estilo</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Etiqueta e Comportamento-->
+                    <div class="col-md-4 d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#etiquetteModal">
+                          <img src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento"
+                            class="serviceItemImage" />
+                          <span class="serviceItemTitle">Etiqueta e Comportamento</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Página 2-->
+            <div class="container-fluid">
+              <div class="carousel-item">
+                <div class="columnOne">
+                  <div class="row">
+                    <!--Coloração Pessoal-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#colorModal">
+                          <img src="./assets/img/color.jpg" alt="Coloração Pessoal" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Coloração Pessoal</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Tipologia Física-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#tipologyModal">
+                          <img src="./assets/img/tipology.jpg" alt="Tipologia Física" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Tipologia Física</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Revitalização de Guarda-Roupa-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#closetModal">
+                          <img src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa"
+                            class="serviceItemImage" />
+                          <span class="serviceItemTitle">Revitalização de Guarda-Roupa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Página 3-->
+            <div class="container-fluid">
+              <div class="carousel-item">
+                <div class="columnOne">
+                  <div class="row">
+                    <!--Armário Cápsula-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#cleanModal">
+                          <img src="./assets/img/clean-closet.jpg" alt="Armário Cápsula" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Armario Capsula</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Dress Code-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#dressModal">
+                          <img src="./assets/img/dress-code.jpg" alt="Dress Code" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Dress Code</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Tendências-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#modaModal">
+                          <img src="./assets/img/moda.jpg" alt="Tendências" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Tendências</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Página 4-->
+            <div class="container-fluid">
+              <div class="carousel-item">
+                <div class="columnOne">
+                  <div class="row">
+                    <!--Lingerie-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#lingerieModal">
+                          <img src="./assets/img/lingerie.jpg" alt="Lingerie" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Lingerie</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Personal Shopping-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#shoppingModal">
+                          <img src="./assets/img/shopping.jpg" alt="Personal Shopping" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Personal Shopping</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Entre em Contato-->
+                    <div class="col-md-4  d-flex justify-content-center">
+                      <div class="serviceItem">
+                        <a href="#contact">
+                          <img src="./assets/img/phone.jpg" alt="Entre em Contato" class="serviceItemImage" />
+                          <span class="serviceItemTitle">Entre em Contato</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botões Prev and Next do Catálogo de Serviços -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#pageServices" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#pageServices" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+          <!-- Modais do Catálogo de Serviços -->
+          <div>
+            <!-- Modal Visagismo -->
+            <div class="modal fade" id="visagismModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Visagismo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/visagism.jpg" alt="Visagismo">
+                        </div>
+                        <div class="col-md-6">
+                          <span>O visagismo é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Estilo -->
+            <div class="modal fade" id="styleModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Estilo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/style.jpg" alt="Estilo">
+                        </div>
+                        <div class="col-md-6">
+                          <span>O Estilo é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Etiqueta e Comportamento -->
+            <div class="modal fade" id="etiquetteModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Etiqueta e Comportamento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Etiqueta e Comportamento é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Coloração Pessoal -->
+            <div class="modal fade" id="colorModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Coloração Pessoal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/color.jpg" alt="Coloração Pessoal">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Coloração Pessoal é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tipologia Física-->
+            <div class="modal fade" id="tipologyModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Tipologia Física</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/tipology.jpg" alt="Tipologia Física">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Tipologia Física é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Revitalização de Guarda-Roupa -->
+            <div class="modal fade" id="closetModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Revitalização de Guarda-Roupa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Revitalização de Guarda-Roupa é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Armário Cápsula -->
+            <div class="modal fade" id="cleanModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Armario Capsula</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/clean-closet.jpg" alt="Armário Cápsula">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Armário Cápsula é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dress Code -->
+            <div class="modal fade" id="dressModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Dress Code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/dress-code.jpg" alt="Dress Code">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Dress Code é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tendências -->
+            <div class="modal fade" id="modaModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Tendências</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/moda.jpg" alt="Tendências">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Tendências é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Lingerie -->
+            <div class="modal fade" id="lingerieModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Lingerie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/lingerie.jpg" alt="Lingerie">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Lingerie é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Personal Shopping-->
+            <div class="modal fade" id="shoppingModal" data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Personal Shopping</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/shopping.jpg" alt="Personal Shopping">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Personal Shopping é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seção de navegação "CONTATO"-->
+    <section id="contact">
+      <div class="sectionContainer">
+        <h2>Contato</h2>
+        <span class="contactDescription">Sinta-se à vontade para entrar em contato comigo enviando o
+          formulário abaixo e retornarei o mais breve possível.</span>
+      </div>
+      <div>
+        <form class="formContact">
+          <div class="formFields">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="formFields">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="formFields">
+            <label for="topic">Assunto:</label>
+            <input type="text" name="topic" id="topic" />
+          </div>
+          <div class="formFields">
+            <label for="message">Mensagem:</label>
+            <textarea name="message" style="resize: none" id="message"></textarea>
+          </div>
+          <div>
+            <button class="submit" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!--Breve descrição footer-->
+    <div class="messageFooter">
+      <span class="titleFooter titleFooterName">Jéssica Carvalho</span>
+      <p class="slogan">
+        Consultora de Imagem e Estilo. Empreendedora. Mineira vivendo em Campinas.
+        Maternidade leve e sem frescura.
+      </p>
+    </div>
+    <!--Ícones de contato do footer-->
+    <div class="socialFooter">
+      <div>
+        <a href="mailto:jeehcarvalho.25@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5532991007819" target="_blank"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/maeeoutrostrem/?hl=pt-br" target="_blank"><i
+            class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Script JavaScript-->
+  <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

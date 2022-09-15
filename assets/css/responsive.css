@@ -1,0 +1,99 @@
+/* X-Large */
+@media (max-width: 1399px) {}
+
+/* Large */
+@media (max-width: 1199px) {}
+
+/* Medium */
+@media (max-width: 991px) {}
+
+/* Small */
+@media (max-width: 767px) {
+  header nav ul li a {
+    padding: 0.8rem;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+  }
+
+  .socialFooter div {
+    padding-bottom: 2rem;
+    align-items: center;
+  }
+
+  .socialFooter div a i {
+    margin-top: 2rem;
+    margin-right: 0.3rem;
+    font-size: 2rem;
+  }
+
+  .formContact {
+    padding: 2rem;
+  }
+}
+
+
+/* X-Small */
+@media (max-width: 575px) {
+  header {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    padding: 0.3rem;
+  }
+
+  header nav ul li a {
+    padding: 0.3rem;
+  }
+
+  .logo img {
+    width: 10rem;
+    padding: 0.5rem;
+  }
+
+  .containerEmpty {
+    height: 6.9rem !important;
+  }
+
+  .sectionContainer h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .aboutColumn h3 {
+    font-size: 1rem;
+  }
+
+  .aboutColumn p {
+    font-size: 0.8rem;
+  }
+
+  .formContact {
+    padding: 2rem;
+  }
+
+  .formFields label {
+    font-size: 0.8rem;
+    margin-bottom: 0rem;
+  }
+
+  footer {
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .socialFooter div {
+    padding-bottom: 2rem;
+    align-items: center;
+  }
+
+  .socialFooter div a i {
+    margin-top: 2rem;
+    margin-right: 0.3rem;
+    font-size: 1.5rem;
+  }
+
+  .titleFooterName::after {
+    margin-left: 0rem;
+  }
+
+}

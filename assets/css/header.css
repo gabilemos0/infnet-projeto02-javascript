@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fafafa;
+  width: 100%;
+  z-index: 10000;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+}
+
+.logo img {
+  width: 12rem;
+  padding: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  padding: 1rem;
+  letter-spacing: 6px;
+  font-size: 0.8rem;
+}
+
+header nav ul li a:hover {
+  color: #F79489;
+}
+
+

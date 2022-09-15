@@ -1,0 +1,54 @@
+#services {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+}
+
+.columnOne {
+  display: flex!important;
+  justify-content: space-around;
+}
+
+.serviceItem {
+  position: relative;
+  display: inline-block;
+}
+
+.serviceItemTitle {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-weight: 600;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  background: #3333338a;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+} 
+
+.serviceItemImage {
+  width: 15rem;
+  height: 18rem;
+  border-radius: 3rem;
+  margin: 1rem;
+  border: 2px solid #fafafa;
+  display: block;
+}
+
+.serviceItemImage:hover {
+  border: 2px solid #F79489;
+}
+
+
+/* .myButtonLeft {
+  padding-right: 8rem!important;
+}
+
+.myButtonRight {
+  margin-left: 8rem!important;
+  padding-left: 8rem!important;
+} */
