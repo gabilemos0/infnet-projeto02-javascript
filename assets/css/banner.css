@@ -1,3 +1,8 @@
-#carouselBanner .carousel-item img {
-  border: 1.5px solid #F79489;
+.galery img {
+  border: 2px solid #F79489;
+}
+
+.galery div {
+  background-color: #F9F1F0;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
 }
