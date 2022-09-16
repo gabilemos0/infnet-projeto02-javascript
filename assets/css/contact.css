@@ -1,5 +1,5 @@
-#contact {  
-  background: #F9F1F0;
+#contact {
+  background: #F1ECE4;
   padding-top: 7rem;
   padding-bottom: 7rem;
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
@@ -29,7 +29,7 @@
 
 .formFields label {
   color: #333;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 1rem;
   display: block;
   text-align: left;
@@ -37,12 +37,14 @@
   letter-spacing: 6px;
 }
 
-.formFields input, textarea {
+.formFields input,
+textarea {
   padding: 1rem;
   width: 100%;
-  border: 1px solid #F79489;
+  border: 1px solid #884290;
   background: #f0f0f0;
   border-radius: 5px;
+  outline: 0;
 }
 
 .formFields textarea {
@@ -51,8 +53,8 @@
 
 .submit {
   padding: 1rem 1rem;
-  background: #F79489;
-  color: white;
+  background: #884290;
+  color: #fafafa;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 700;
@@ -63,10 +65,11 @@
   margin: 0 auto;
   display: block;
   cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .submit:hover {
-  border: 0.1px solid #F79489;   
+  border: 0.1px solid #884290;
   animation: pulse 3s;
 }
 
@@ -74,12 +77,24 @@
   0% {
     transform: scale(.85);
   }
+
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 100px rgba(#F79489, 0);
+    box-shadow: 0 0 0 100px rgba(#884290, 0);
   }
-    100% {
+
+  100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(#F79489, 0);
+    box-shadow: 0 0 0 0 rgba(#884290, 0);
   }
+}
+
+.custom-popover {
+  width: 13rem !important;
+  font-size: 0.7rem !important;
+  text-align: justify !important;
+}
+
+.fa-circle-info {
+  color: #884290c2;
 }

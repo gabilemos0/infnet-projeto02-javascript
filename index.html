@@ -129,7 +129,13 @@
             <input type="text" name="name" id="name" />
           </div>
           <div class="formFields">
-            <label for="email">E-mail:</label>
+            <label for="email">
+              <span>E-mail:</span>
+              <i class="fa-solid fa-circle-info" id="popover-email" type="button" class="btn btn-lg btn-danger"
+                data-bs-custom-class="custom-popover" data-bs-toggle="popover"
+                data-bs-content="Pedimos o seu e-mail para que possamos entrar em contato posteriormente e passar as informações solicitadas."></i>
+            </label>
+
             <input type="email" name="email" id="email" />
           </div>
           <div class="formFields">
@@ -178,6 +184,7 @@
   <script src="./assets/js/banner.js"></script>
   <script src="./assets/js/services_variables.js"></script>
   <script src="./assets/js/catalog.js"></script>
+  <script src="./assets/js/popover.js"></script>
 </body>
 
 </html>

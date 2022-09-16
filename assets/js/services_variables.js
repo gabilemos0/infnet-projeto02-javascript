@@ -51,7 +51,7 @@ const catalogos = {
   },
   tendencias: {
     title: 'TENDENCIAS',
-    img: './assets/img/dress-code.jpg',
+    img: './assets/img/moda.jpg',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cum, commodi in laborum non, accusamus magni architecto aut sapiente odit nesciunt tempora sequi cupiditate hic, obcaecati officia ea asperiores tenetur!'
   },

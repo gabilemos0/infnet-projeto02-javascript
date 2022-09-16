@@ -1,5 +1,5 @@
 #about {
-  background: #F9F1F0;
+  background: #F1ECE4;
   padding-top: 7rem;
   padding-bottom: 7rem;
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
@@ -9,7 +9,7 @@
   margin: 0.2rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid #F79489;
+  border: 1px solid #884290;
   border-radius: 2rem;
   padding-bottom: 1rem;
   background-color: #fafafa;
@@ -44,7 +44,7 @@
   display: block;
   margin: 0 auto;
   padding: 0.5rem 0.5rem;
-  background: #F79489;
+  background: #884290;
   border: none;
   border-radius: 0.5rem;
   flex-grow: 0;
@@ -54,19 +54,19 @@
 .knowMore {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: #fafafa;
   letter-spacing: 2px;
   font-size: 0.9rem;
 }
 
 .knowMore:hover {
   text-decoration: none;
-  color: white;
+  color: #fafafa;
 
 }
 
 .knowMore:hover {
-  border: 0.1px solid #F79489;
+  border: 0.1px solid #884290;
   animation: pulse 3s;
 }
 
@@ -77,11 +77,11 @@
 
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 100px rgba(#F79489, 0);
+    box-shadow: 0 0 0 100px rgba(#884290, 0);
   }
 
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(#F79489, 0);
+    box-shadow: 0 0 0 0 rgba(#884290, 0);
   }
 }

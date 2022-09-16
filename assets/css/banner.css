@@ -1,8 +1,13 @@
 .galery img {
-  border: 2px solid #F79489;
+  border: 2px solid #884290;
 }
 
 .galery div {
-  background-color: #F9F1F0;
+  background-color: #F1ECE4;
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+}
+
+.galery>.slick-next:before,
+.galery>.slick-prev:before {
+  display: none;
 }

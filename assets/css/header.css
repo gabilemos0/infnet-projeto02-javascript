@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: #fafafa;
+  background-color: #F1ECE4;
   width: 100%;
   z-index: 10000;
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
@@ -30,7 +30,5 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #F79489;
+  color: #884290;
 }
-
-
