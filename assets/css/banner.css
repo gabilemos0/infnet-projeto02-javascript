@@ -1,5 +1,5 @@
 .galery img {
-  border: 2px solid #884290;
+  border: 2px solid #D8B7A6;
 }
 
 .galery div {
@@ -10,4 +10,15 @@
 .galery>.slick-next:before,
 .galery>.slick-prev:before {
   display: none;
+}
+
+.placeholder-item {
+  height: 450px;
+  width: 100%;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.spinner-banner {
+  margin-bottom: 10rem;
 }
