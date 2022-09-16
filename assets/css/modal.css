@@ -1,3 +1,7 @@
+#modalServices {
+  margin-top: 10rem;
+}
+
 .modal-title {
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -5,23 +9,18 @@
   font-weight: 100;
 }
 
-.imgModal {
+#modalServicesImg {
   width: 13rem;
   height: 15rem;
-  border: 2px solid #F79489!important;
+  border: 2px solid #F79489 !important;
   border-radius: 2rem;
+  display: block;
+  margin: 0 auto;
 }
 
-.myContentModal span {
+#modalServicesDescription {
   color: #555;
   font-size: 0.9rem;
-}
-
-.serviceImageContainer {
-  text-align: center;
-
-}
-
-.serviceDescriptionContainer {
   text-align: justify;
+  margin-top: 1rem;
 }
