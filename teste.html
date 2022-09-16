@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/libs/slickslider/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="./assets/libs/slickslider/slick-1.8.1/slick/slick-theme.css">
+</head>
+
+<body>
+  <div class="galeryServices">
+    <div><img src="./assets/img/visagism.jpg" alt="visagismo" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Visagismo</span>
+    </div>
+    <div><img src="./assets/img/style.jpg" alt="Estilo" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Estilo</span>
+    </div>
+    <div><img src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Etiqueta e Comportamento</span>
+    </div>
+    <div><img src="./assets/img/color.jpg" alt="Coloração Pessoal" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Coloração Pessoal</span>
+    </div>
+    <div><img src="./assets/img/tipology.jpg" alt="Tipologia Física" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Tipologia Física</span>
+    </div>
+    <div><img src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa" class="serviceItemImage"
+        width="300px" />
+      <span class="serviceItemTitle">Revitalização de Guarda-Roupa</span>
+    </div>
+    <div><img src="./assets/img/clean-closet.jpg" alt="Armário Cápsula" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Armario Capsula</span>
+    </div>
+    <div><img src="./assets/img/dress-code.jpg" alt="Dress Code" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Dress Code</span>
+    </div>
+    <div><img src="./assets/img/moda.jpg" alt="Tendências" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Tendências</span>
+    </div>
+    <div><img src="./assets/img/lingerie.jpg" alt="Lingerie" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Lingerie</span>
+    </div>
+    <div><img src="./assets/img/shopping.jpg" alt="Personal Shopping" class="serviceItemImage" width="300px" />
+      <span class="serviceItemTitle">Personal Shopping</span>
+    </div>
+  </div>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/libs/slickslider/slick-1.8.1/slick/slick.js"></script>
+
+  <script>
+    $('.galeryServices').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    })
+
+
+  </script>
+</body>
+
+</html>
