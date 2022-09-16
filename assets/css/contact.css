@@ -48,10 +48,11 @@ textarea {
 }
 
 .formFields textarea {
-  padding: 5rem 1rem;
+  height: 10rem;
 }
 
-.submit {
+.submit,
+.spinner {
   padding: 1rem 1rem;
   background: #884290;
   color: #fafafa;
@@ -66,6 +67,11 @@ textarea {
   display: block;
   cursor: pointer;
   font-size: 0.8rem;
+  width: 7rem;
+}
+
+.spinner {
+  display: none;
 }
 
 .submit:hover {
@@ -97,4 +103,8 @@ textarea {
 
 .fa-circle-info {
   color: #884290c2;
+}
+
+.btn .btn-primary {
+  background-color: #884290c2 !important;
 }
