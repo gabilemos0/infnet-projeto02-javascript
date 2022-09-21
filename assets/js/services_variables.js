@@ -66,11 +66,5 @@ const catalogos = {
     img: './assets/img/shopping.jpg',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cum, commodi in laborum non, accusamus magni architecto aut sapiente odit nesciunt tempora sequi cupiditate hic, obcaecati officia ea asperiores tenetur!'
-  },
-  contato: {
-    title: 'ENTRE EM CONTATO',
-    img: './assets/img/phone.jpg',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cum, commodi in laborum non, accusamus magni architecto aut sapiente odit nesciunt tempora sequi cupiditate hic, obcaecati officia ea asperiores tenetur!'
   }
 }

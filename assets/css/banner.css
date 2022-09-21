@@ -12,7 +12,12 @@
   display: none;
 }
 
-.placeholder-item {
+.galery>.slick-next,
+.galery>.slick-prev {
+  display: none;
+}
+
+.placeholderBannerEdit {
   height: 450px;
   width: 100%;
   margin-bottom: 0px;

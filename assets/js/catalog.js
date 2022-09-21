@@ -1,6 +1,7 @@
 let i = 0
 
 const carouselServiceItems = document.getElementById('carouselServiceItems')
+const placeholderModal = document.getElementById('placeholderModal')
 
 for (let catalogo of Object.keys(catalogos)) {
   let div = document.createElement('div')
@@ -22,6 +23,13 @@ for (let catalogo of Object.keys(catalogos)) {
       .setAttribute('src', catalogos[event.currentTarget.id]['img'])
     document.getElementById('modalServicesDescription').innerHTML =
       catalogos[event.currentTarget.id]['description']
+    document.getElementById('modalBodyContent').style.display = 'none'
+    document.getElementById('carousel-placeholderModal').style.display = 'block'
+    setTimeout(() => {
+      document.getElementById('modalBodyContent').style.display = 'block'
+      document.getElementById('carousel-placeholderModal').style.display =
+        'none'
+    }, 1500)
     modalServices.show()
   })
 
