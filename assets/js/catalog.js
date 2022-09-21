@@ -4,33 +4,21 @@ const carouselServiceItems = document.getElementById('carouselServiceItems')
 const placeholderModal = document.getElementById('placeholderModal')
 
 for (let catalogo of Object.keys(catalogos)) {
+  const service = catalogos[catalogo]
+
   let div = document.createElement('div')
-  div.setAttribute('id', catalogo)
   div.classList.add('carousel-item')
   if (i === 0) {
     div.classList.add('active')
   }
   i++
-  div.innerHTML = `<div class="serviceItem" ><img src="${catalogos[catalogo]['img']}" alt="${catalogo}"
+
+  div.innerHTML = `<div class="serviceItem" ><img src="${service.img}" alt="${catalogo}"
   class="serviceItemImage" />
 </div>`
 
-  div.addEventListener('click', function (event) {
-    document.getElementById('modalServicesLabel').innerHTML =
-      catalogos[event.currentTarget.id]['title']
-    document
-      .getElementById('modalServicesImg')
-      .setAttribute('src', catalogos[event.currentTarget.id]['img'])
-    document.getElementById('modalServicesDescription').innerHTML =
-      catalogos[event.currentTarget.id]['description']
-    document.getElementById('modalBodyContent').style.display = 'none'
-    document.getElementById('carousel-placeholderModal').style.display = 'block'
-    setTimeout(() => {
-      document.getElementById('modalBodyContent').style.display = 'block'
-      document.getElementById('carousel-placeholderModal').style.display =
-        'none'
-    }, 1500)
-    modalServices.show()
+  div.addEventListener('click', function () {
+    service.showModal()
   })
 
   carouselServiceItems.appendChild(div)
